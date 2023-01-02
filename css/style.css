@@ -1,0 +1,64 @@
+body {
+  min-height: 2000px;
+}
+
+.navbar li {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+#projects {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+/* Latihan 2 */
+.container-dua {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.layanan {
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  color: white;
+}
+
+.nominal {
+  font-size: 20px;
+}
+
+.layanan.satu {
+  background-color: #1ea8c0;
+}
+
+.layanan.dua {
+  background-color: #1ea8c0;
+}
+
+.layanan.tiga {
+  background-color: #1ea8c0;
+}
+
+.card img {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  padding-top: 18px;
+}
+
+.navbar img {
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+}

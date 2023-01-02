@@ -3,22 +3,28 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="img/laundry-basket.png" rel="icon" />
 
     <!-- Bootstrap Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
 
-    <!-- My CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <title>Web Dzikri Setiawan</title>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+
+    <title>MAS.JO Laundry</title>
   </head>
 
   <body id="home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #1ea8c0">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top font-semibold" style="background-color: #1ea8c0">
       <div class="container">
-        <a class="navbar-brand" href="#">Dzikri Setiawan</a>
+        <a class="navbar-brand fw-bold" href="#">MAS.JO LAUNDRY</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -31,7 +37,10 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Project</a>
+              <a class="nav-link" href="#projects">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#price">Prices</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -44,9 +53,9 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/profil2.jpg" alt="Dzikri Setiawan" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Dzikri Setiawan</h1>
-      <p class="lead">Student | Content Creator</p>
+      <img src="img/laundry2.png" alt="Dzikri Setiawan" width="400px" class="width-auto" />
+      <h1 class="display-4 fw-bold">Laundry Kiloan Dan Satuan</h1>
+      <p class="lead">Cepat | Bersih | Wangi</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -62,18 +71,12 @@
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>About Me</h2>
+            <h2 class="fw-bold">About</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum ducimus ipsum corrupti molestias exercitationem dolores.</p>
-          </div>
-          <div class="col-md-4">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aliquam fugiat pariatur nostrum necessitatibus sint accusantium quisquam excepturi inventore ratione, debitis non beatae quae quidem sunt, voluptates alias
-              adipisci ex!
-            </p>
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
+            <p>Mas.jo Laundry melayani jasa pencucian dalam bentuk laundry kiloan dan satuan, mulai dari pakaian, jaket, sepatu, tas, dan lainnya. Tinggal hubungi kami, untuk pickup dan delivery laundry langsung di tempat kamu!</p>
           </div>
         </div>
       </div>
@@ -87,56 +90,68 @@
     </section>
     <!-- Akhir About -->
 
-    <!-- Projects -->
+    <!-- Services -->
     <section id="projects">
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>My Projects</h2>
+            <h2 class="fw-bold">Services</h2>
+            <p>
+              Mas.jo Laundry melayani berbagai kebutuhan laundry kamu, mulai dari Laundry Kiloan, satuan, layanan antar jemput, satu malam selesai, 6 jam selesai, paket laundry, bahkan jika kamu memiliki usaha yang memerlukan jasa laundry,
+              Mas.jo Laundry dapat bekerjasama untuk memenuhi kebutuhan laundry kamu.
+            </p>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/1.jpg" class="card-img-top" alt="project 1" />
+            <div class="card" data-aos="flip-left" data-aos-duration="500">
+              <img src="img/services/laundry.png" class="card-img-top" alt="project 1" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title fw-bold">CUCI SETRIKA KILOAN</h5>
+                <p class="card-text">Laundry Kiloan menjadi pilihan favorit bagi kamu yang ingin laundry dalam kuantitas banyak namun dengan harga ekonomis</p>
               </div>
             </div>
           </div>
 
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/2.jpg" class="card-img-top" alt="project 2" />
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="50">
+              <img src="img/services/ironing.png" class="card-img-top" alt="project 2" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title fw-bold">SETRIKA KILOAN</h5>
+                <p class="card-text">Jasa Setrika Kiloan menjadi pilihan yang tepat bagi kamu yang memiliki mesin cuci dan pengering namun tidak ingin menyetrika sendiri</p>
               </div>
             </div>
           </div>
 
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/4.jpg" class="card-img-top" alt="project 3" />
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
+              <img src="img/services/basket2.png" class="card-img-top" alt="project 3" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title fw-bold">CUCI KERING KILOAN</h5>
+                <p class="card-text">Jika kamu ingin menucici item laundry yang tidak perlu disetrika (seperti handuk, bathrobe, dsb), Jasa Cuci Kering Kiloan menjadi pilihan terbaik buat laundry kamu</p>
               </div>
             </div>
           </div>
 
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/4.jpg" class="card-img-top" alt="project 4" />
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="150">
+              <img src="img/services/box.png" class="card-img-top" alt="project 4" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title fw-bold">PAKET LAUNDRY</h5>
+                <p class="card-text">
+                  Buat kamu yang tinggal di apartment, kost, atau berencana menggunakan jasa laundry secara rutin dalam jangka waktu panjang, Mommy's menyediakan paket laundry dengan harga yang lebih ekonomis. Paket Laundry juga mempermudah
+                  kamu dalam proses pembayaran laundry.
+                </p>
               </div>
             </div>
           </div>
 
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/5.jpg" class="card-img-top" alt="project 5" />
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
+              <img src="img/services/stopwatch.png" class="card-img-top" alt="project 5" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title fw-bold">ODS & EXPRESS</h5>
+                <p class="card-text">Onde Day Service (Selesai di hari yang sama) dapat menjadi pilihan terbaik buat kamu yang traveling ke Bandung, atau membutuhkan urgency yang tinggi</p>
               </div>
             </div>
           </div>
@@ -150,15 +165,56 @@
         ></path>
       </svg>
     </section>
+    <!-- Akhir Services -->
 
-    <!-- Akhir Project -->
+    <!-- Price -->
+    <section id="price">
+      <div class="container-dua">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2 class="fw-bold">Price</h2>
+          </div>
+        </div>
+
+        <div class="layanan satu text-center">
+          <h4 class="fw-bold">CUCI SETRIKA</h4>
+          <p class="nominal"><sup>Rp</sup>6.000 / Kg</p>
+          <p>-Full Proses (Cuci, Pengeringan, Setrika, dan Pelipatan)</p>
+          <p>-Tersedia Reguler, ODS, Express, dan Paket Laundry</p>
+        </div>
+
+        <div class="layanan satu text-center">
+          <h4 class="fw-bold">CUCI SETRIKA</h4>
+          <p class="nominal"><sup>Rp</sup>4.000 / Kg</p>
+          <p>-Setrika dan Pelipatan</p>
+          <p>-Tersedia berbagai pilihan parfum laundry</p>
+          <p>-Tersedia pilihan Reguler, ODS, dan Express</p>
+        </div>
+
+        <div class="layanan satu text-center">
+          <h4 class="fw-bold">CUCI KERING KILOAN</h4>
+          <p class="nominal"><sup>Rp</sup>5.400 / Kg</p>
+          <p>-Cuci dan Pengeringan</p>
+          <p>-Tersedia pilihan Reguler, ODS, dan Express</p>
+        </div>
+
+        <div class="layanan satu text-center">
+          <h4 class="fw-bold">ODS & EXPRESS</h4>
+          <p class="nominal"><sup>Rp</sup>10.000 / Kg</p>
+          <p>-Tersedia untuk Cuci Setrika Kiloan</p>
+          <p>-Tersedia untuk Cuci Kering Kiloan</p>
+          <p>-Tersedia untuk Setrika Kiloan</p>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Price -->
 
     <!-- Contact -->
     <section id="contact">
       <div class="container">
-        <div class="row text-center mb-3">
+        <div class="row text-center mb-3s">
           <div class="col">
-            <h2>Contact Me</h2>
+            <h2 class="fw-bold">Contact Me</h2>
           </div>
         </div>
         <div class="row justify-content-center">
@@ -184,7 +240,7 @@
                 <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
               </div>
 
-              <button type="submit" class="btn btn-success btn-kirim">Kirim</button>
+              <button type="submit" class="btn btn-success btn-kirim mb-5">Kirim</button>
 
               <button class="btn btn-primary btn-loading d-none" type="button" disabled>
                 <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
@@ -198,7 +254,7 @@
         <path
           fill="#1ea8c0"
           fill-opacity="1"
-          d="M0,128L60,160C120,192,240,256,360,234.7C480,213,600,107,720,80C840,53,960,107,1080,128C1200,149,1320,139,1380,133.3L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+          d="M0,128L60,144C120,160,240,192,360,186.7C480,181,600,139,720,138.7C840,139,960,181,1080,197.3C1200,213,1320,203,1380,197.3L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
         ></path>
       </svg>
     </section>
@@ -206,38 +262,38 @@
 
     <!-- Footer -->
     <footer style="background-color: #1ea8c0" class="text-center pb-5">
-      <p>Created with <i class="bi bi-bookmark-heart text-danger"></i> by <a href="https://www.instagram.com/dzikrisee" target="_blank" class="text-white fw-bold">Dzikri Setiawan</a></p>
+      <div class="social">
+        <div class="contact-left">
+          <div class="social-icons">
+            <p><i class="bi bi-envelope text-white"></i> dzikrisetiawan97@gmail.com</p>
+            <p><i class="bi bi-whatsapp text-white"></i><a href="https://wa.me/6281223093242" class="text-decoration-none text-dark" target="_blank"> 081223093242</a></p>
+            <p><i class="bi bi-instagram text-white"></i><a href="https://www.instagram.com/dzikrisee" class="text-decoration-none text-dark" target="_blank"> dzikrisee</a></p>
+          </div>
+        </div>
+      </div>
+      <p>Created with <i class="bi bi-heart-fill text-white"></i> by <a href="https://www.instagram.com/dzikrisee" target="_blank" class="text-white fw-bold text-decoration-none">Dzikri Setiawan</a></p>
     </footer>
     <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbyDilc4QvD7sYV8AlQ0zOF0vOOE5MWOnXz3N8fw8jU9m468el4bSagmlrOQ93jGg85Y/exec';
-      const form = document.forms['web-contact'];
-      const btnKirim = document.querySelector('.btn-kirim');
-      const btnLoading = document.querySelector('.btn-loading');
-      const myAlert = document.querySelector('.my-alert');
-
-      form.addEventListener('submit', (e) => {
-        e.preventDefault();
-        // ketika tombol submit diklik
-        // tampilkan tombol loading, hilangkan tombol kirim
-        btnLoading.classList.toggle('d-none');
-        btnKirim.classList.toggle('d-none');
-        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-          .then((response) => {
-            // tampilkan tombol kirim, hilangkan tombol loading
-            btnLoading.classList.toggle('d-none');
-            btnKirim.classList.toggle('d-none');
-            // tampilkan alert
-            myAlert.classList.toggle('d-none');
-            // reset formnya
-            form.reset();
-            console.log('Success!', response);
-          })
-          .catch((error) => console.error('Error!', error.message));
+      AOS.init({
+        once: true,
+        duration: 2000,
       });
     </script>
+    <!-- AOS Script -->
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.66.1/gsap.min.js"></script>
+    <script>
+      gsap.from('.jumbotron img', { duration: 1, y: -100, opacity: 0 });
+    </script>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
   </body>
 </html>
