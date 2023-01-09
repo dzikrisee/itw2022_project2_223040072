@@ -1,5 +1,10 @@
 body {
   min-height: 2000px;
+  overflow-y: hidden;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 .navbar li {
